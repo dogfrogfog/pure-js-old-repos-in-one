@@ -8,7 +8,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 
 
-EDM-panel 
+EDM --panel
+
+
+
+Things you can do
+Add note to DB
+Delete selected note from DB
+Clear input fields
+Output all notes
+Output name of note with MAX value
+Output name of note with MIN value
+
+
+
+
+
+
 alarm
 css-js
 arrow-clock 
