@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+  margin: 0;
+  background-image: url(../static/bg.jpeg);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 15px;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+  background: #00000075;
+  transition: 0.1s;
+}
+
+.playing {
+  transform: scale(1.1);
+  transition: 0.1s;
+  background: #000000a3;
+  border: 3px solid #ddb509;
+}
+
+.key {
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+.sound {
+  color: #ddb509;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notDone {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  text-decoration: underline;
+  padding: 10px;
+  text-decoration-color: red;
+}
