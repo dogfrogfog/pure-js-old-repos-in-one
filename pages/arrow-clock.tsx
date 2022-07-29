@@ -1,7 +1,7 @@
 import { useEffect, useRef, RefObject } from 'react'
 import type { NextPage } from 'next'
 
-import styles from '../styles/arrowClock.module.css'
+import styles from '../styles/arrow-clock.module.css'
 
 // refactored.......time cant wait
 type RT = RefObject<HTMLDivElement>
