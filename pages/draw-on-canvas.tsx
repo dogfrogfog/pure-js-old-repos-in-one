@@ -18,7 +18,7 @@ const DrawOnCanvasPage: NextPage = () => {
         </div>
       </div>
     </>
-  );
+  )
 }
 
 export default DrawOnCanvasPage
