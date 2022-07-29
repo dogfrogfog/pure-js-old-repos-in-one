@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-import styles from '../styles/cssjs.module.css'
+import styles from '../styles/css-js.module.css'
 
 const CssJsPage: NextPage = () => {
   return (
