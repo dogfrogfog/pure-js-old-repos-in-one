@@ -64,7 +64,7 @@ const buttons: { dataKey: string, key: string, sound: string }[] = [
 const EDMPage: NextPage = () => {
   return (
     <>
-      <span className={styles.notDone}>Sound doesnt work</span>
+      <span className="notDone">Sound doesnt work</span>
       <div className={styles.container}>
         {buttons.map(({ dataKey, key, sound }) => (
           <a href="#" className={styles.button} key={key} data-key={dataKey}>

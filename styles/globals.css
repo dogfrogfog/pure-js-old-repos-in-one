@@ -19,6 +19,23 @@ a {
   padding: 10px 0 0 20px;
 }
 
+.notDone {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  text-decoration: underline;
+  padding: 10px;
+  text-decoration-color: red;
+}
+
+.notDone.notWhite {
+  background-color: red;
+  color: white;
+  text-decoration-color: white;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
