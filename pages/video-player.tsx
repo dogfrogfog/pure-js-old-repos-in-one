@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import styles from '../styles/video-player.module.css'
 
-const Home: NextPage = () => {
+const VideoPlayerPage: NextPage = () => {
   return (
     <>
       <span className="notDone">Video tag is commented</span>
@@ -40,4 +40,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default VideoPlayerPage
