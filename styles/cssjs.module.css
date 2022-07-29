@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+  background: #0d0827;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.controls {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container label {
+  font-size: 20px;
+}
+
+.container label,
+.container input {
+  margin: 0 10px;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 10px;
+  filter: blur(0);
+}
+
+.imageContainer {
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+  background: #e6d503;
+  border-radius: 10px;
+}
+
+.base {
+  color: #e6d503;
+}
