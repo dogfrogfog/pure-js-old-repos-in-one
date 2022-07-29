@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 
-import styles from '../styles/drawoncanvas.module.css'
+import styles from '../styles/draw-on-canvas.module.css'
 
 const DrawOnCanvasPage: NextPage = () => {
   return (
