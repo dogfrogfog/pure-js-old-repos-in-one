@@ -1,0 +1,26 @@
+#draw {
+  z-index: 0;
+}
+
+.options {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  border: 1px solid #00000030;
+  height: 300px;
+  width: 100px;
+  background: linear-gradient(45deg, #00000038, transparent);
+  opacity: 1;
+}
+
+.options input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.options span {
+  margin-bottom: 5px;
+  display: block;
+}
