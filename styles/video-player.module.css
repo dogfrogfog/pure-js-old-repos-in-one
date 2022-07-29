@@ -1,0 +1,91 @@
+.container {
+  background: #333;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section {
+  width: 720px;
+  height: 405px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.container video {
+  width: 100%;
+  z-index: 10000000;
+}
+
+.controls {
+  width: 100%;
+  position: absolute;
+  bottom: -75px;
+  background: #00000085;
+  transition: 0.5s;
+}
+
+.progress {
+  width: 100%;
+  position: absolute;
+  bottom: -15px;
+  transition: 0.5s;
+  width: 100%;
+  height: 20px;
+  background-color: #00000085;
+  border-bottom: 1px solid #ff6a01;
+}
+
+.progressInner {
+  width: 100%;
+  height: 100%;
+  background: #ff6a01;
+}
+
+.bottomControls {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.play,
+.volume,
+.speed,
+.skip {
+  display: inline-block;
+  height: 25px;
+}
+
+.container input {
+  height: 100%;
+}
+
+.play {
+  color: #ff6a01;
+  font-size: 20px;
+  height: 20px;
+}
+
+.volume span,
+.speed span {
+  font-size: 15px;
+  color: white;
+  vertical-align: middle;
+}
+
+.skip button {
+  background: #ff6a01;
+  border: none;
+  height: 30px;
+  width: 50px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.volume div {
+  display: inline-block;
+  height: 100%;
+}
