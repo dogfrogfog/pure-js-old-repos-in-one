@@ -8,5 +8,6 @@ export enum ROUTES {
   drawOnCanvas = '/draw-on-canvas',
   edm = '/edm',
   speechRecognition = '/speech-recognition',
-  webSQL = '/web-sql'
+  webSQL = '/web-sql',
+  whackAMole = '/whack-a-mole'
 }
