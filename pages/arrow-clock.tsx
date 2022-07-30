@@ -13,15 +13,18 @@ const setDate = (hoursRef: RT, minutesRef: RT, secondsRef: RT) => {
   const secondsDegrees = (seconds / 60) * 360 + 90;
 
   if (hoursRef) {
+    // @ts-ignore
     hoursRef.style.transform = `rotate(${secondsDegrees}deg)`;
 
     const minutes = date.getMinutes();
     const minutesDegrees = (minutes / 60) * 360 + 90;
+    // @ts-ignore
     minutesRef.style.transform = `rotate(${minutesDegrees}deg)`;
 
 
     const hours = date.getHours();
     const hoursDegrees = (hours / 24) * 360 + 90;
+    // @ts-ignore
     secondsRef.style.transform = `rotate(${hoursDegrees}deg)`;
   }
 }
@@ -33,6 +36,7 @@ const ArrowClockPage: NextPage = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
+      // @ts-ignore
       setDate(hoursRef.current, minutesRef.current, secondsRef.current)
     }, 1000);
 
