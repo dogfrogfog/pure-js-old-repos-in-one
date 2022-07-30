@@ -10,5 +10,6 @@ export enum ROUTES {
   speechRecognition = '/speech-recognition',
   webSQL = '/web-sql',
   whackAMole = '/whack-a-mole',
-  keyboard = '/keyboard'
+  keyboard = '/keyboard',
+  codeJamImageApi = '/code-jam-image-api'
 }
