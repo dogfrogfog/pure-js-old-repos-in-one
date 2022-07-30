@@ -10,7 +10,7 @@ const SideBar: FC = () => (
     {Object.values(ROUTES).map((route) => (
       <li key={route}>
         <Link href={route}>
-          <a>{route}</a>
+          <a>{route === '/' ? 'home' : route}</a>
         </Link>
       </li>
     ))}

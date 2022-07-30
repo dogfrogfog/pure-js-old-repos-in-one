@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Image from 'next/image'
 
 import styles from '../styles/alarm.module.css'
 
@@ -11,7 +12,7 @@ const AlarmPage: NextPage = () => {
         <h1>LOLSUNSET CLOCK</h1>
         <h3>I can haz time!?</h3>
         <h2 id='timeTag'>00 : 00 : 00</h2>
-        <img id="image" src="" alt="day-time-image" />
+        <Image id="image" src="" alt="day-time-image" />
         <h3>Set alarm tooooooo:</h3>
         <div id="clocksector">
           <select name="" id="alarms">
