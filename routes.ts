@@ -9,5 +9,6 @@ export enum ROUTES {
   edm = '/edm',
   speechRecognition = '/speech-recognition',
   webSQL = '/web-sql',
-  whackAMole = '/whack-a-mole'
+  whackAMole = '/whack-a-mole',
+  keyboard = '/keyboard'
 }

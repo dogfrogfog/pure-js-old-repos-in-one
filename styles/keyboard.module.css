@@ -1,0 +1,67 @@
+.container {
+  background: antiquewhite;
+  margin: 50px 0;
+}
+
+.container section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.containertextarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container button {
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.container button:focus {
+  outline: 0;
+}
+
+.clicked {
+  border: 2px solid #eea9f7c2;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.special {
+  background: #542b4f;
+  color: white;
+}
+
+.tab,
+.del,
+.ctrl {
+  width: 80px;
+}
+
+.beckspace,
+.capslock,
+.shiftlong,
+.enter {
+  width: 145px;
+}
+
+.space {
+  width: 425px;
+}
